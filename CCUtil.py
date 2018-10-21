@@ -58,9 +58,7 @@ def cc(method, **kwargs):
 
     success = 0
     times = []
-
     
-
     for k in range(multiple):
         task = requests.get(challenge_url)
         try:
