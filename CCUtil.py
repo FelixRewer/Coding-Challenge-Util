@@ -59,7 +59,7 @@ def cc(method, **kwargs):
     success = 0
     times = []
 
-    print(f"Challenge: {challenge_id}")
+    
 
     for k in range(multiple):
         task = requests.get(challenge_url)
