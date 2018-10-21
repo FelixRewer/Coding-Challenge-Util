@@ -9,7 +9,7 @@ You can find and solve all challenges [here](https://challenges.the-morpheus.de/
 ## How to use
 How to use this function is shown in [example.py](example.py), but here is a short recap:
 ```python
-from CodingChallengeUtil import run
+from CodingChallengeUtil import cc
 
 @cc(challenge=2, times=10, additional="sorted")
 def doit(order: dict):
