@@ -1,4 +1,4 @@
-from CCUtil import run
+from CCUtil import cc
 
 #
 # This is an usage example.
@@ -9,7 +9,7 @@ from CCUtil import run
 #
 
 
-@run(challenge=2, times=10, additional="sorted")
+@cc(challenge=2, times=10, additional="sorted")
 def doit(order: dict):
     return order["list"].index(order["k"])
 
