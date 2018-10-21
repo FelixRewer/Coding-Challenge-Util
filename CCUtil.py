@@ -83,4 +83,4 @@ def cc(method, **kwargs):
 
     times = statistics.mean(times)
     success_rate = success / multiple * 100
-    print(f"Result: Took {times:2.5f} ms on average with a {success_rate:3.3f} % success rate\n")
+    print(f"> Result for challenge {challenge_id}: Took {times:2.5f} ms on average with a {success_rate:3.3f} % success rate")
