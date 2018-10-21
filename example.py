@@ -3,13 +3,12 @@ from CCUtil import run
 #
 # This is an usage example.
 # Here you can see how to use the
-# run-decorator.
+# cc-decorator.
 # To run this, just execute this file
 # (nothing else needed than the CCUtil.py)
 #
 
-
-@run(challenge=2, times=10, additional="sorted")
+@cc(challenge=2, times=10, additional="sorted")
 def doit(order: dict):
     return order["list"].index(order["k"])
 
