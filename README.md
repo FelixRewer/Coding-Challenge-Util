@@ -3,13 +3,15 @@ This Coding Challenge Util is made to make
 the code more readable for the different implementations
 of different solutions of different "solvers".
 
+You can find and solve all challenges [here](https://challenges.the-morpheus.de/).
+
 
 ## How to use
-How to use this function is shown in example.py, but here is a short recap:
+How to use this function is shown in [example.py](example.py), but here is a short recap:
 ```python
 from CodingChallengeUtil import run
 
-@run(challenge=2, times=10, additional="sorted")
+@cc(challenge=2, times=10, additional="sorted")
 def doit(order: dict):
     return order["list"].index(order["k"])
 ```
@@ -32,6 +34,5 @@ def doit(order: dict):
 # 8 Success: TMT{...}
 # 9 Success: TMT{...}
 # 10 Success: TMT{...}
-
-# Result: Took 0.00803 ms on average with a 100.000 % success rate
+> Result for challenge 2: Took 0.00803 ms on average with a 100.000 % % success rate
 ```
