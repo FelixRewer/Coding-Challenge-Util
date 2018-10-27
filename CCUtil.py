@@ -55,7 +55,7 @@ def cc(method, **kwargs):
                                        That's due to the functioning of the index method.
                                        """},
                   {"id": 10, "message": """
-                                        The inaccuracies in floats might cause to an error.
+                                        The inaccuracies in floats might cause an error.
                                         This happens in 15% of all cases.
                                         """
                   }]
