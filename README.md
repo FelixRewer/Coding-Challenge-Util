@@ -34,5 +34,5 @@ def doit(order: dict):
 # 8 Success: TMT{...}
 # 9 Success: TMT{...}
 # 10 Success: TMT{...}
-> Result for challenge 2: Took 0.00803 ms on average with a 100.000 % % success rate
+> Result for challenge 2: Took 0.00803 ms on average with a 100.000 % success rate
 ```
