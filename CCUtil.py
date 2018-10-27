@@ -50,7 +50,15 @@ def cc(method, **kwargs):
 
     assert requests.get(challenge_url).status_code != 404, "Challenge doesn't exist."
 
-    exceptions = [{"id": 9, "message": "Sometimes your solution might cause an error though it's right."}]
+    exceptions = [{"id": 9, "message": """
+                                       Sometimes your solution might cause an error though it's right.
+                                       That's due to the functioning of the index method.
+                                       """},
+                  {"id": 10, "message": """
+                                        The inaccuracies in floats might cause to an error.
+                                        This happens in 15% of all cases.
+                                        """
+                  }]
 
     for exception in exceptions:
         if int(challenge_id) == exception["id"]:
